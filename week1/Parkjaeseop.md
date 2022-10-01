@@ -18,3 +18,6 @@ int main()
   }
   
   ```
+  ![포인터](https://user-images.githubusercontent.com/114458636/193379393-77af7d0e-6c34-46e3-8006-069b31ed5db1.png)
+
+  
