@@ -15,7 +15,7 @@ int main()
     return 0;
 }
 
-```c
+```
 #include <stdio.h>
 typedef struct point2d {
     int x;
@@ -34,7 +34,7 @@ int main()
     return 0;
 }
 
-```c
+```
 #include <stdio.h>
 int main()
 {
@@ -50,7 +50,7 @@ int main()
 ![image](https://user-images.githubusercontent.com/113405600/193448937-83780cc7-7ea4-4718-a920-e50cd2dc43a5.png)
 ![image](https://user-images.githubusercontent.com/113405600/193448946-d293c583-e196-42df-a835-080a51ce7c11.png)
 
-```c
+```
 #include <stdio.h>
 int fib(int n)
 {
