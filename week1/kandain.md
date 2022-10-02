@@ -31,4 +31,19 @@ int main()
 	return 0;
 }
 ```
-나머지는 내일
+백준 재귀 예제 1번
+![2022-10-03](https://user-images.githubusercontent.com/102521485/193461406-051e6b43-b50e-4ea7-b062-fe9d28670e6c.png)
+```c
+#include <stdio.h>
+int num(int n)
+{
+	if (n == 1)
+		return 1;
+	return n * num(n - 1);
+}
+int main()
+{
+	printf("%d", num(10));
+	return 0;
+}
+```
