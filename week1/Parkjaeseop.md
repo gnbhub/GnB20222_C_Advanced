@@ -44,3 +44,33 @@ int main()
 }
 ```
 ![구조체](https://user-images.githubusercontent.com/114458636/193383818-422893b7-99c3-4e0e-ae78-9e800cac9a9a.png)
+
+```c
+#include <stdio.h>
+
+int factorial(int n)
+{
+	if (n <= 1)
+		return 1;
+	else return
+		n * factorial(n - 1);
+}
+
+int main()
+{
+	int num1;
+	int ans = 0;
+
+	printf("정수를 입력하시오 : ");
+	scanf_s("%d", &num1);
+
+	ans = factorial(num1);
+
+	printf("%d의 팩토리얼 : %d", num1, ans);
+
+	return 0;
+}
+```
+
+![팩토리얼](https://user-images.githubusercontent.com/114458636/193563180-2a0d1b9f-81dd-4586-a70d-1066562be7b4.png)
+
