@@ -73,4 +73,5 @@ int main()
 ```
 
 ![팩토리얼](https://user-images.githubusercontent.com/114458636/193563180-2a0d1b9f-81dd-4586-a70d-1066562be7b4.png)
+![팩토리얼 2](https://user-images.githubusercontent.com/114458636/193563793-ae3ba873-6838-491b-8f19-282f1e547992.png)
 
