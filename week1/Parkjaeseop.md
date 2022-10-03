@@ -75,3 +75,43 @@ int main()
 ![팩토리얼](https://user-images.githubusercontent.com/114458636/193563180-2a0d1b9f-81dd-4586-a70d-1066562be7b4.png)
 ![팩토리얼 2](https://user-images.githubusercontent.com/114458636/193563793-ae3ba873-6838-491b-8f19-282f1e547992.png)
 
+```c
+#include <stdio.h>
+
+int sequence(int n)
+{
+	int a0 = 0;
+	int a1 = 1;
+	int result = 0;
+
+	if (n == 1)
+		return 1;
+	else if (n == 0)
+		return 0;
+
+	for (int i = 2; i <= n; i++)
+	{
+		result = a0 + a1;
+		a0 = a1;
+		a1 = result;
+	}
+
+	return result;
+}
+
+int main()
+{
+	int n;
+	int ans;
+
+	scanf_s("%d", &n);
+
+	ans = sequence(n);
+
+	printf("%d", ans);
+
+	return 0;
+}
+```
+
+![피보나치 수열](https://user-images.githubusercontent.com/114458636/193567915-f2219264-fecc-4c5c-9b08-bcbbf2d254d4.png)
