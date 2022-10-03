@@ -1,5 +1,7 @@
 Unit 34 연습문제
 
+
+```c
 #include <stdio.h>
 
 int main(void) {
@@ -16,10 +18,12 @@ int main(void) {
 
 	return 0;
 }
+```
 
 
 Unit 48 연습문제
 
+```c
 #include <stdio.h>
 
 typedef struct {
@@ -38,10 +42,12 @@ int main(void) {
 
 	return 0;
 }
+```
 
 
 백준 10872
 
+```c
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 
@@ -61,13 +67,15 @@ int main(void) {
 	printf("%d\n", Factorial(num1));
 }
 
+```
+
 ![Gnb Factorial](https://user-images.githubusercontent.com/114462303/193493239-2bd45686-77c7-4c7a-bdca-da35ac46edd9.png)
 
 
 
 
 백준 10870
-
+```c
 
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
@@ -90,6 +98,7 @@ int main(void) {
 
 	printf("%d", fib(num1));
 }
+```
 
 ![Gnb fibonacci number](https://user-images.githubusercontent.com/114462303/193493253-d72918de-651e-41c0-b9a5-4f1168c0ae73.png)
 
