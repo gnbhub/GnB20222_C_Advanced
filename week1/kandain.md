@@ -47,3 +47,25 @@ int main()
 	return 0;
 }
 ```
+백준 재귀 2번
+![2022-10-03 (1)](https://user-images.githubusercontent.com/102521485/193500115-246c0016-029f-481d-a5c6-e273d680c652.png)
+```c
+#include <stdio.h>
+int fib(int n) {
+	if (n == 0)
+		return 0;
+	else if (n == 1)
+		return 1;
+	else
+		return fib(n - 1) + fib(n - 2);
+}
+int main()
+{
+	int n = 10,sum=0;
+	for (int i = 0; i < n+1; i++) {
+		sum=fib(i);
+	}
+	printf("%d", sum);
+	return 0;
+}
+```
