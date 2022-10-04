@@ -1,4 +1,4 @@
-34
+코딩도장34
 ```c
 #include <stdio.h>
 
@@ -16,10 +16,10 @@ int main(void) {
 
 	return 0;
 }
-```c
+```
 ![image](https://user-images.githubusercontent.com/101636072/193805077-2e26fff3-4dc7-42a5-b898-896815f21eb7.png)
 
-48
+코딩도장48
 ```c
 #include <stdio.h>
 
@@ -39,7 +39,7 @@ Point2D p1;
 
 return 0;
 }
-```c
+```
 ![image](https://user-images.githubusercontent.com/101636072/193805312-6a770804-8865-4200-b0ca-2bded30e4670.png)
 
 백준재귀 1
@@ -58,7 +58,7 @@ int main() {
 
 
 }
-```c
+```
 ![image](https://user-images.githubusercontent.com/101636072/193806599-616f94d6-586b-4af7-868b-346d07b0b918.png)
 
 백준재귀2
@@ -87,7 +87,7 @@ int F(int a)
 
 }
 
-```c
+```
 ![image](https://user-images.githubusercontent.com/101636072/193808789-c3e4e4b3-f822-487d-bb3f-375602dd453e.png)
 
 
