@@ -1,6 +1,6 @@
 코딩도장 35.7
 
-'''c
+```c
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
@@ -25,10 +25,12 @@ int main()
 
     return 0;
 }
-'''
+```
+![image](https://user-images.githubusercontent.com/113405600/194737334-7919a58e-0e91-4f70-ad5c-30f368075721.png)
+
 
 코딩도장 38.7
-'''c
+```c
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
@@ -49,9 +51,9 @@ int main()
 	}
 	return 0;
 }
-'''
+```
 
-'''c
+```c
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
@@ -81,10 +83,12 @@ int main()
 	free(arr);
 	return 0;
 }
-'''
+```
+![image](https://user-images.githubusercontent.com/113405600/194737331-2c9f7f06-0fb2-4cf9-9634-7e581563ba94.png)
+
 
 백준 25501
-'''c
+```c
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
@@ -119,10 +123,12 @@ int main() {
     }
     return 0;
 }
-'''
+```
+![image](https://user-images.githubusercontent.com/113405600/194737339-63a2cb25-4ebb-48b8-90b4-7e6f5024bd7c.png)
+
 
 백준 11729
-'''c
+```c
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
@@ -151,4 +157,5 @@ int main()
 	hanoi(n, 1, 3, 2);
 	return 0;
 }
-'''
+```
+![image](https://user-images.githubusercontent.com/113405600/194737344-5f672ce7-53e7-4d9d-b31b-99b743598122.png)
