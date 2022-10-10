@@ -112,7 +112,7 @@ int main() {
 }
 ```
 
-![35 7](https://user-images.githubusercontent.com/113916804/194870222-a04b63f8-6c0f-408d-9a73-9c3fec5a7747.png)
+![백준_3](https://user-images.githubusercontent.com/113916804/194870446-564fd251-ab13-464d-9e4f-3e441922de95.png)
 
 
 
@@ -147,4 +147,5 @@ int main()
 }
 ```
 
-![35 7](https://user-images.githubusercontent.com/113916804/194870248-fc135e27-f725-41ce-b0fc-868de32f0837.png)
+![백준_6](https://user-images.githubusercontent.com/113916804/194870486-07b109a1-b4f9-4c1d-a9d6-8f8a34003406.png)
+
