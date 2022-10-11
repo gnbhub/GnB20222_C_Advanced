@@ -108,3 +108,49 @@ int main()
 }
 ```
 ![image](https://user-images.githubusercontent.com/114458636/194997886-9456a620-cbc0-45f2-be48-7d0968e5cae6.png)
+
+```c
+#include <stdio.h>
+#include <math.h>
+
+/*
+int count = 0;
+int tm1 = 0;
+*/
+
+void ht(int n, char from, char temp, char to)
+{
+	/*
+	count = tm1 + 1;
+	tm1 = count;
+	*/
+
+	if (n == 1)
+	{
+		printf("%c %c\n", from, to);
+	}
+	else
+	{
+		ht(n - 1, from, to, temp);
+		printf("%c %c\n", from, to);
+		ht(n - 1, temp, from, to);
+	}
+}
+
+int main()
+{
+	int a = 0;
+	int b = 0;
+	scanf_s("%d", &a);
+
+	b = pow(2, a) - 1;
+
+	printf("%d\n",b);
+
+	ht(a, '1', '2', '3');
+	//printf("%d\n", tm1);
+
+	return 0;
+}
+```
+![image](https://user-images.githubusercontent.com/114458636/195068102-c0dfc576-858f-41ed-868e-e8cb540d5648.png)
