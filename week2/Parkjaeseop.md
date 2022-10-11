@@ -65,3 +65,46 @@ int main()
 ![image](https://user-images.githubusercontent.com/114458636/194982035-628dcdd5-5d87-4d17-983a-542cfe9632da.png)
 
 
+왜인지는 모르겠으나 Runtime check failure #2가 뜸.
+```C
+#include <stdio.h>
+#include <string.h>
+
+int temp;
+
+int resursion(const char* s, int l, int r)
+{
+	temp = temp + 1;
+	if (l >= r) return 1;
+	else if (s[l] != s[r]) return 0;
+	else
+	{
+		return resursion(s, l + 1, r - 1);
+	}
+}
+
+int isPalindrome(const char* s)
+{
+	return resursion(s, 0, strlen(s) - 1);
+}
+
+int main()
+{
+	int a;
+	int i;
+	char test;
+
+	scanf_s("%d", &a);
+
+	for (i = 0; i < a; i++)
+	{
+		scanf_s("%s", &test,1000);
+
+		printf("%d %d \n", isPalindrome(&test), temp);
+		temp = 0;
+	}
+
+	return 0;
+}
+```
+![image](https://user-images.githubusercontent.com/114458636/194997886-9456a620-cbc0-45f2-be48-7d0968e5cae6.png)
