@@ -221,7 +221,58 @@ head file
 		return nodeptr;
 	}
 	
-```
+백준10773번
+```c
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <stdlib.h>
+#include "stacksADT.h"
+#include <stdbool.h>
 
+int main()
+{
+    int sum = 0;
+    int a,b;
+    STACK* stack;
+    stack = createStack();
+    printf("실행하고 싶은 단계의 개수:");
+    scanf(" %d", &a);
+    fgetc(stdin);
+    for (int i = 0; i < a; i++)
+    {
+        int* dataptr;
+        dataptr = (int*)malloc(sizeof(int));
+        printf("숫자입력:(0은 삭제)");
+        scanf(" %d", &b);
+        if (b != 0)
+        {
+            *dataptr = b;
+            pushstack(stack, dataptr);
+        }
+        else
+        {
+            popstack(stack);
+        }
+       
+
+        
+      
+    }
+   
+    while (!emptystack(stack))
+    {
+        
+        int* result;
+        result = (int*)malloc(sizeof(int));
+        
+        result=popstack(stack);
+        sum =sum+ *result;
+    }
+    printf("%d", sum);
+        
+ }
+    
+head file 10828번 
+```
 
 
