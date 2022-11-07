@@ -4,7 +4,7 @@
 
     나눠받은 자료 파일 중 10.문자와 문자열과 링크 내용 학습
 
-    C언어 문자열 > https://alba-tross.tistory.com/m/5
+    C언어 문자열 > https://eunjinii.tistory.com/m/28
     
     과제 : C 언어 코딩 도장 심사문제(42.10, 44.7) 풀이 & 전체 코드 및 실행 화면 업로드
 
