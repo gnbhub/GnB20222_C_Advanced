@@ -1,5 +1,5 @@
-2. 지료구조_스텍
-3. 
+2. 자료구조_stack
+
 ```c
 
 #include <stdio.h>
