@@ -1,5 +1,28 @@
 1. 문자열
 
+```c
+#define _CRT_SECURE_NO_WARNINGS
+#include <string.h>
+#include <stdio.h>
+
+int main()
+{
+	char s1[31];
+	char s2[31];
+
+	gets(s1);
+
+	strcpy(s2, s1);
+
+	printf("%s\n", s1);
+	printf("%s\n", s2);
+
+	return 0;
+}
+```
+![image](https://user-images.githubusercontent.com/114458636/200483313-06cade6e-76ca-4056-9b24-243e5eae9b30.png)
+
+
 3. 자료구조_stack
 
 ```c
