@@ -22,8 +22,36 @@ int main()
 ```
 ![image](https://user-images.githubusercontent.com/114458636/200483313-06cade6e-76ca-4056-9b24-243e5eae9b30.png)
 
+```c
+#define _CRT_SECURE_NO_WARNINGS
+#include <string.h>
+#include <stdio.h>
 
-3. 자료구조_stack
+int main()
+{
+	char s1[1000];
+	int count = 0;
+
+	gets(s1);
+
+	for (int i = 0; i < strlen(s1); i++)
+	{
+		if (s1[i] == ' ')
+		{
+			count += 1;
+		}
+		else
+		{
+			continue;
+		}
+	}
+
+	printf("%d\n", count);
+}
+```
+![image](https://user-images.githubusercontent.com/114458636/200484219-0f3f4b4d-98d3-48db-9463-e382291b41a7.png)
+
+2. 자료구조_stack
 
 ```c
 
