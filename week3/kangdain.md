@@ -40,4 +40,34 @@ int main()
 ```
 ![image](https://user-images.githubusercontent.com/102521485/200341169-186e3548-a41c-48ca-a6d8-a5dd0f429e1a.png)
 ```c
+#include <stdio.h>
+#include <string.h>
+#define MAX_STACK_SIZE 10000
+int stack[MAX_STACK_SIZE];
+int top = -1;
+void puch(int item)
+{
+	if (top >= MAX_STACK_SIZE - 1) {
+		stackfull();
+		return;
+	}
+	stack[++top] = item;
 
+}
+int pop() {
+	if (top == -1)
+		return -1;
+	return stack[top--];
+}
+int size()
+{
+	return 
+}
+int isempty() {
+
+	if (top < 0)
+		return(1);
+	else
+		return(0);
+}
+```
