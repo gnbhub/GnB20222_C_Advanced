@@ -19,6 +19,8 @@ int main()
 }
 ```
 ![image](https://user-images.githubusercontent.com/101636072/200534070-e8e315b0-21c8-4902-980d-96334850fec6.png)
+
+
 44.7
 ```c
 
@@ -42,6 +44,8 @@ int main()
 }
 ```
 ![image](https://user-images.githubusercontent.com/101636072/200535662-1bcddd46-25e6-434b-a0c3-0f00ae243585.png)
+
+
 10828
 ```c
 #define _CRT_SECURE_NO_WARNINGS
@@ -120,6 +124,7 @@ int main() {
 }
 ```
 ![image](https://user-images.githubusercontent.com/101636072/200536827-ade958d8-1d6d-4fbd-a551-472aa6e48f95.png)
+
 
 10773
 ```c
