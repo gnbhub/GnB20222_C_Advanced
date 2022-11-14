@@ -55,13 +55,11 @@ int main()
 		scanf("%s", input);
 		//size
 		if (input[0] == 's') {
-			//printf("%d\n", size());
 			answer[cnt] = size();
 			cnt++;
 		}
 		//pop
 		else if (input[1] == 'o') {
-			//printf("%d\n", pop());
 			answer[cnt] = pop();
 			cnt++;
 		}
@@ -72,19 +70,16 @@ int main()
 		}
 		//empty
 		else if (input[0] == 'e') {
-			//printf("%d\n", empty());
 			answer[cnt] = empty();
 			cnt++;
 		}
 		//front
 		else if (input[0] == 'f') {
-			//printf("%d\n", qfront());
 			answer[cnt] = qfront();
 			cnt++;
 		}
 		//back
 		else if (input[0] == 'b') {
-			//printf("%d\n", back());
 			answer[cnt] = back();
 			cnt++;
 		}
