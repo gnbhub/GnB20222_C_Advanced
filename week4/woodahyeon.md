@@ -96,7 +96,68 @@ int main(){
   
 <details><summary>백준 15828 Router</summary>
 <div markdown = "1">
+	
   ```c
-  
+  #define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+typedef struct {
+	int data[1000000];
+	int front;
+	int rear;
+}Queue;
+
+void init_queue(Queue* q) {
+	q->front = q->rear = 0;
+	return;
+}
+
+
+void queue(Queue* q, int x) {
+	q->data[(q->rear)++] = x;
+	return;
+}
+
+void dequeue(Queue* q) {
+	(q->front)++;
+	return;
+}
+
+
+int main(){
+	Queue Router;
+	Queue* r = &Router;
+	init_queue(r);
+
+	int n;
+	scanf("%d", &n);
+
+	int input, count = 0;
+
+	while(1) {
+		scanf("%d", &input);
+		if (input == -1) break;
+		if (input == 0) {
+			dequeue(r);
+		}
+		else {
+			if (count <= n) {
+				queue(r, input);
+				count++;
+			}
+		}
+	}
+
+	if (r->front == r->rear) printf("empty");
+	else {
+		for(; r->front < r->rear; (r->front)++) {
+			if (r->front == (r->rear) - 1) printf("%d", r->data[r->front]);
+			else printf("%d ", r->data[r->front]);
+		}
+	}
+
+    return 0;
+}
   ```
+![image](https://user-images.githubusercontent.com/51956616/201913183-3876335d-dc6b-4bcd-9213-f3db5b240058.png)
   
