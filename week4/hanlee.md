@@ -93,7 +93,8 @@ int main()
 
 }
   ```
-  ![image](https://user-images.githubusercontent.com/66372602/201852874-5c7746a0-e292-4ad9-a423-4bdcd2b332c3.png)
+![image](https://user-images.githubusercontent.com/66372602/201855201-1814b08e-7fb2-4257-a9f0-64374f7f012c.png)
+
 
   
 백준15828번 과제
@@ -314,3 +315,4 @@ bool enqueue(QUEUE* queue, void* itemPtr)
 		} // if 
 		return NULL;
 	}
+ ![image](https://user-images.githubusercontent.com/66372602/201852874-5c7746a0-e292-4ad9-a423-4bdcd2b332c3.png)
