@@ -78,9 +78,6 @@ int back()
 
 int main()
 {
-	int order = 0, i;
-	char Od[MAX];
-
 	push(1);
 	push(2);
 	Front();
