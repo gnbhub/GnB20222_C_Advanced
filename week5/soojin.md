@@ -83,6 +83,8 @@ int main()
 	printNode(list2);
 	list3=poly_add(list1, list2, list3);
 	printNode(list3);
+	free(list1);
+	free(list2);
 	free(list3);
 	return 0;
 }
