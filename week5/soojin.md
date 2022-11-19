@@ -51,8 +51,10 @@ NODE* poly_add(NODE* list1, NODE* list2, NODE* list3)
 			ptr2 = ptr2->next;
 		}
 	}
-	for (; ptr1 != NULL; ptr1 = ptr1->next) list3 = append(list3, ptr1->coef, ptr1->expon);
-	for (; ptr2 != NULL; ptr2 = ptr2->next)list3 = append(list3, ptr2->coef, ptr2->expon);
+	for (; ptr1 != NULL; ptr1 = ptr1->next)
+	list3 = append(list3, ptr1->coef, ptr1->expon);
+	for (; ptr2 != NULL; ptr2 = ptr2->next)
+	list3 = append(list3, ptr2->coef, ptr2->expon);
 	return list3;
 }
 
