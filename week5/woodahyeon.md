@@ -123,8 +123,8 @@ int main(void)
 
 ![image](https://user-images.githubusercontent.com/51956616/202977958-0815ac79-70b4-46a3-8d50-d66f4fd64710.png)
 
-	</div>
-	</details>
+</div>
+</details>
 	
 
 <details> <summary> 2. 문제 풀이 </summary>
@@ -137,5 +137,5 @@ int main(void)
 
 2. 다음 프로그램은 2개의 노드로 구성된 연결 리스트의 노드 생성과 연결에 관한 프로그램이다. [가]와 [나]에 알맞은 것은 무엇인가?
 
-	</div>
-	</details>
+</div>
+</details>
