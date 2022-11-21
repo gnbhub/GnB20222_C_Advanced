@@ -1,3 +1,7 @@
+<드롭다운을 눌러 내용 확인>
+<details> <summary> 1. 연결 리스트를 사용한 다항식 덧셈 프로그램 </summary>
+<div markdown="1">
+	
 ```c
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
@@ -118,3 +122,20 @@ int main(void)
 ```
 
 ![image](https://user-images.githubusercontent.com/51956616/202977958-0815ac79-70b4-46a3-8d50-d66f4fd64710.png)
+
+	</div>
+	</details>
+	
+
+<details> <summary> 2. 문제 풀이 </summary>
+<div markdown="1"> 
+	1. 다음 중 리스트에 대한 설명으로 틀린 것은?
+① '일정한 순서'의 나열
+② 어떤 정의에 의해서 결정된 '논리적인 순서'의 나열
+③ 리스트를 포인터로 구현할 경우에는 배열에 비해서 추가적인 메모리 공간이 필요하다.
+④ 메모리 공간에서의 물리적인 위치가 논리적인 위치와 동일하다.
+
+2. 다음 프로그램은 2개의 노드로 구성된 연결 리스트의 노드 생성과 연결에 관한 프로그램이다. [가]와 [나]에 알맞은 것은 무엇인가?
+
+	</div>
+	</details>
