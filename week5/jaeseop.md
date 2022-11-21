@@ -133,3 +133,6 @@ int main()
 }
 ```
 ![image](https://user-images.githubusercontent.com/114458636/203079198-e2140f59-5aa9-4867-9eb6-fa7c47e900ff.png)
+
+
+7-1. 1번. 7-2. 2번 7-3. 2번 7-4. 4
