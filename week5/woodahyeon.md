@@ -132,11 +132,14 @@ int main(void)
 	
 ```
 1. 4번 : 메모리 할당 위치는 랜덤, 포인터로 논리적 순서 형성
+	
 2. 2번 : [가] 아직 typedef 문이 완료되지 않았으므로 ListNode* link를 사용하면 오류 발생
 	 link포인터의 자료형은 struct ListNode*로 정의해주어야 함
 	 [나] 연결리스트 생성 시 헤드 노드 생성 = 노드 H의 동적 공간 할당 :
 	 H = (linkedList_h*)malloc(sizeof(linkedList_h*))
+	
 3. 2번 : 원소들의 메모리 공간상 물리적 위치는 랜덤하다.
+	
 4. 4번 : [가] p_a 포인터는 int형 자료를 가리키는 포인터,
 	 따라서 (int*)malloc(sizeof(int))로 int형 자료 하나만큼의 공간 할당
 	 [나] 변수 p_a와 p_b는 포인터로 메모리 주소를 저장함.
