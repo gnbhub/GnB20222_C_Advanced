@@ -112,6 +112,7 @@ int main(void)
 ![image](https://user-images.githubusercontent.com/66372602/203017377-efb66340-4bef-4c3e-86b6-c44fe2106652.png)
 
 1번: 답은 4, 물리적 순서는 랜덤으로 배열된다. 
+//
 2번: 답은 2
      (가): 연결리스트를 만들기 위해서 재귀로 호출하는 struct Listnode* link가 필요
      (나): 포인터H를 자의적으로 메모리에 할당해야하므로 동적할당이 필요하다.
