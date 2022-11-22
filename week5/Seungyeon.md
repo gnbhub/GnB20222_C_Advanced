@@ -33,6 +33,7 @@ ListType* create()
 void insert_last(ListType* plist, int coef, int expon)
 {
 	ListNode* temp = (ListNode*)malloc(sizeof(ListNode));
+	
 
 	if (temp == NULL)
 	{
@@ -133,3 +134,7 @@ int main()
 }
 
 ```
+![스크린샷_20221122_083149](https://user-images.githubusercontent.com/114462303/203304231-ae3fe451-f913-471a-8252-d7b5e65e2dd4.png)
+
+
+
